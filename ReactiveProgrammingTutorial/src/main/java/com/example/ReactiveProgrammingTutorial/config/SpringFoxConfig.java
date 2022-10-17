@@ -15,7 +15,7 @@ public class SpringFoxConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.iamiagkov.reactiveapidemo"))
+                .apis(RequestHandlerSelectors.basePackage("com.example"))
                 .paths(PathSelectors.any())
                 .build();
     }
